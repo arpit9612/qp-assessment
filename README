@@ -1,0 +1,25 @@
+## Project Setup Steps:
+
+# Run command Install all dependencies.
+npm install 
+
+# Run Command to start the server.
+npm start
+
+# Above command will start the server on port 3000.
+
+# To Setup the database.
+
+1. Install MySql Server and workbench.
+2. Use the database.sql file to setup the DataBase.
+3. Change the configuration values in db-connection.ts file.
+
+# Install postman and use the postman collection to setup the requests.
+
+# Docker commands.
+
+# To Build the docker image
+docker build -t IMAGE_NAME .
+
+# To run the container. 
+docker run -p 3000:3000 IMAGE_NAME
